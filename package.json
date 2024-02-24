@@ -115,6 +115,7 @@
     "native-duplexpair": "^1.0.0",
     "negotiator": "^0.6.3",
     "node-abort-controller": "^3.1.1",
+    "nodemon": "^3.1.0",
     "object-inspect": "^1.13.1",
     "object-keys": "^1.1.1",
     "object.assign": "^4.1.5",
@@ -178,7 +179,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "echo \"No test specified\"",
+    "start": "nodemon index.js",
+    "build": "echo 'running build'"
   },
   "keywords": [],
   "author": "",
